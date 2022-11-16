@@ -4,9 +4,10 @@ margin: 0;
 box-sizing: border-box;
 }
 
-body{
-background-color: black;
-/* background-color: white; */
+.home-page{
+background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.485), rgba(0, 0, 0, 0.49)), url(../pics/bg-2.jpg); 
+height: 100vh;
+width: 100%;
 }
 
 .hero-div{
@@ -30,12 +31,11 @@ padding-top: 5px;
 width: 90%;
 margin-left: auto;
 margin-right: auto;
-/* background-color: red; */
+
 display: flex;
 justify-content: space-between;
 align-items: center;
 height: 50px;
-/* margin-top: 5px; */
 }
 
 .profile{
@@ -93,8 +93,6 @@ margin-top: 80px;
 margin-left: auto;
 margin-right: auto;
 background-color: white;
-/* background-color: black; */
-/* color: white; */
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -103,15 +101,12 @@ align-items: center;
 .img-div{
 width: 326px;
 height: 460px;
-
-border-image-source: linear-gradient(to left, #671AE4, #b75cff)
 }
 
 .img-div img{
 width: 100%;
 height: 100%;
-border: 10px solid;
-border-image-source: linear-gradient(to left, #671AE4, #b75cff)
+border-radius: none;
 }
 
 .text-div{
@@ -133,8 +128,9 @@ line-height: 59.33px;
  background: -webkit-linear-gradient( #671AE4, #B75CFF, #671AE4, #B75CFF);
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
-
 }
+
+
 .text-div p{
 width: 424px;
 height: 88px;
@@ -159,8 +155,11 @@ font-weight: 500;
 line-height: 19.36px;
 text-align: center;
 margin-top: 22px;
-
+margin-left: 150px;
 }
+
+
+
 @media (min-width: 1199px) {
  .nav-div{
  width: 100%;
@@ -229,4 +228,51 @@ justify-content: center;
  line-height: 30px;
  letter-spacing: 0.3px;
  }
+}
+
+@media (max-width: 899px) {
+ .body-sec{
+width: 90%;
+height: 700px;
+margin-top: 80px;
+margin-left: auto;
+margin-right: auto;
+background-color: white;
+display: flex;
+flex-direction: column-reverse;
+align-items: space-between;
+justify-content: center;
+}
+
+.img-div{
+width: 200px;
+height: 200px;
+margin-top: 0;
+margin-left: -10px;
+}
+
+.img-div img{
+width: 100%;
+height: 100%;
+border-radius: 100px;
+}
+
+.text-div{
+margin-left: 40px;
+margin-top: 30px;
+height: fit-content;
+}
+
+.text-div h1{
+margin-top: 0;
+}
+
+.text-div p{
+text-align: center;
+
+}
+
+.text-div button{
+margin-left: 140px;
+}
 }
