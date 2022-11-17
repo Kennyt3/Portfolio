@@ -1,64 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
-    <link rel="stylesheet" href="./css/style.css">
-
-</head>
-<body>
-    <div class="home-page">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body>
     <div class="hero-div">
-    <!-- Header starts -->
+      <!-- Header starts -->
+      <header>
         <div class="page-header">
-            <div class="nav-div">
-                <div class="profile">
-                    <p class="profile-word">M</p>
-                    <a href="#" class="profile-name">Mercy</a>
-                </div>
-                <div id="menu" class="fas fa-bars toggle-btn"></div>
-                <div class="nav-links">
-                    <div class="nav-links-out">
-                        <a href="#" class="home ">Home</a>
-                        <a href="#" class="about ">About</a>
-                        <a href="#" class="service ">Services</a>      
-                    </div>
-                    <a href="#" class="contact ">Let's Talk</a>
-                </div>
+          <nav class="nav-div">
+            <div class="profile">
+              <p class="profile-word">M</p>
+              <a href="#" class="profile-name">Mercy</a>
             </div>
+            <div id="menu" class="fas fa-bars toggle-btn"></div>
+            <div class="nav-links">
+              <div class="nav-links-out">
+                <a href="#" class="home">Home</a>
+                <a href="#" class="about">About</a>
+                <a href="#" class="service">Services</a>
+              </div>
+              <a href="#" class="contact">Let's Talk</a>
+            </div>
+          </nav>
         </div>
-    <!-- Header ends -->
-        <section class="body-sec-container">
-            <div class="body-sec">
-               <div class="text-div">
-                <h1>I’m <span>Mercy Taiwo, </span>Frontend Developer </h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.</p>
-                <a>Download CV</a>
-               </div>
-                <div class="img-div">
-                <img src="./pics/blessedMercy2.jpg" alt="Mercy Taiwo">
-               </div> 
+      </header>
+      <!-- Header ends -->
+      <section>
+        <div class="body-sec-container">
+          <div class="body-sec">
+            <div class="text-div">
+              <p>Hello&#9995;,</p>
+              <h1>
+                I'm<span id="color"> Mercy Taiwo,</span>
+                <span id="job">Frontend Developer </span>
+              </h1>
+              <p id="mes">
+                I develop interactive and responsive web applications using
+                cutting-edge web technologies.
+              </p>
+              <a>Download CV</a>
             </div>
-            <div class="about-me">
-                <h1>
-
-                </h1>
+            <div class="logos">
+              <a href="">
+                <img src="./pics/gith.svg" id="logo" alt="" />
+              </a>
+              <a href="">
+                <img src="./pics/linkedin.svg" id="logo1" alt="" />
+              </a>
+              <!-- <a href="">
+                <img src="./pics/in.svg" id="logo" alt="" />
+              </a>
+              <a href="">
+                <img src="./pics/twitter.svg" id="logo" alt="" />
+              </a> -->
             </div>
-            <!-- <div class="break">
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="about-me">
+          <h1></h1>
+        </div>
+        <!-- <div class="break">
                 <img src="" alt="">
                 <img src="" alt="">
                 <img src="" alt="">
             </div> -->
-        </section>
+      </section>
     </div>
-    </div>
-        <script src="./js/script.js"></script>
-</body>
+    <script src="./js/script.js"></script>
+  </body>
 </html>

@@ -1,0 +1,135 @@
+@media (min-width: 720px) {
+  .page-header {
+    height: 7rem;
+    padding: 0.5rem 2rem;
+  }
+
+  .nav-div {
+    height: 6rem;
+  }
+
+  .toggle-btn {
+    display: none;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 48.4rem;
+    height: 5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .nav-links-out {
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-links-out a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    letter-spacing: 0.3px;
+  }
+
+  .contact {
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+    width: 15.4rem;
+    height: 5.1rem;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    letter-spacing: 0.3px;
+  }
+
+  .text-div {
+    width: 52rem;
+    margin-left: 0;
+  }
+
+  .body-sec {
+    height: 85vh;
+    width: 100%;
+    max-width: 103rem;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  .logos {
+    display: flex;
+    flex-direction: column;
+    height: 19.9rem;
+    width: 3.5rem;
+    /* background-color: red; */
+    justify-content: space-between;
+    /* color: #671ae4; */
+    background-color: #671ae4;
+  }
+
+  .logo a {
+    width: 100%;
+    height: 3.5rem;
+    /* color: #671ae4; */
+  }
+
+  #logo1,
+  #logo {
+    width: 100%;
+    height: 100%;
+    fill: green;
+    background-color: white;
+  }
+}
+
+@media (max-width: 343px) {
+  .text-div h1 span#color {
+    display: block;
+  }
+}
+
+@media (min-width: 500px) {
+  .text-div h1 {
+    font-size: 5rem;
+    line-height: 8rem;
+  }
+
+  .text-div h1 span#job {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+
+  .text-div p#mes {
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+}
+
+/* @media (min-width: 1024px) {
+  .text-div {
+    width: 52rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .text-div {
+    width: 60rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .text-div {
+    width: 65rem;
+  }
+} */
