@@ -19,11 +19,12 @@ body {
       rgba(0, 0, 0, 0.485),
       rgba(0, 0, 0, 0.49)
     ),
-    url(../pics/bg-2.jpg);
+    url(../assets/bg-4.jpg);
   color: white;
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.5;
+  /* background-size: cover; */
 }
 
 a {
@@ -37,6 +38,7 @@ a {
 }
 
 .page-header {
+  /* background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%); */
   background: linear-gradient(214.02deg, #b75cff80 6.04%, #671ae480 92.95%);
   position: sticky;
   top: 0;
@@ -99,19 +101,15 @@ a {
 }
 
 .body-sec {
-  /* width: 90vw; */
   height: 90vh;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   padding: 2rem;
 }
 
 .text-div {
-  /* background-color: red; */
-  /* max-width: 51.2rem; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -143,7 +141,6 @@ a {
   font-weight: 300;
   font-size: 2rem;
   line-height: 1.4rem;
-  /* line-height: 2.25rem; */
   color: #d5d1d1f7;
 }
 
@@ -163,8 +160,6 @@ a {
   font-weight: 500;
   line-height: 19.36px;
   margin-top: 2rem;
-  /* margin-left: auto;
-  margin-right: auto; */
   display: block;
   text-align: center;
   padding-top: 1.5rem;
