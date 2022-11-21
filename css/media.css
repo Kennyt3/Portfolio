@@ -180,13 +180,13 @@
 
 @media (min-width: 500px) {
   .text-div h1 {
-    font-size: 5rem;
-    line-height: 7rem;
+    font-size: 4rem;
+    line-height: 4.5rem;
   }
 
   .text-div h1 span#job {
-    font-size: 4rem;
-    line-height: 5rem;
+    font-size: 3rem;
+    line-height: 3.5rem;
   }
 
   .text-div p#mes {
