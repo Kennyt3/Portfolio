@@ -120,6 +120,7 @@ a {
   font-size: 3.7rem;
   line-height: 7rem;
   padding: 2rem 0;
+  animation: moveInFromLeft 5s ease-in-out;
 }
 
 .text-div h1 span#color {
@@ -167,4 +168,42 @@ a {
 
 .logos {
   display: none;
+}
+
+.nav-links.show .contact:hover,
+.contact:hover,
+#cv-btn:hover {
+  transform: scale(1.1);
+  transition: all 0.4s ease-in-out;
+}
+
+@keyframes moveInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  /* 80% {
+      transform: translateX(20px);
+    } */
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes moveInFromRight {
+  0% {
+    /* opacity: 0; */
+    transform: translateX(100px);
+  }
+  /* 
+    80% {
+      transform: translateX(20px);
+    } */
+
+  100% {
+    /* opacity: 1; */
+    transform: translateX(-20);
+  }
 }
