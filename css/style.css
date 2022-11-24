@@ -121,11 +121,11 @@ a {
 }
 
 .text-div h1 {
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 3.7rem;
-  line-height: 7rem;
-  padding: 2rem 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 3.84rem;
+  padding: 1rem 0;
   animation: moveInFromLeft 0.5s ease-in-out;
 }
 
@@ -136,28 +136,24 @@ a {
   background-clip: text;
 }
 
-.text-div h1 span#job {
-  color: white;
-  font-size: 3rem;
-  display: block;
-  line-height: 6rem;
-}
-
 .text-div p {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
-  font-size: 2rem;
-  line-height: 1.4rem;
-  color: #d5d1d1f7;
-}
-
-.text-div p {
+  font-size: 1.6rem;
+  line-height: 2.304rem;
+  /* color: #d5d1d1f7; */
+  color: white;
   animation: moveInFromTop 0.5s ease-in-out;
 }
 
-.text-div p#mes {
-  font-size: 2rem;
-  line-height: 2rem;
+.text-div h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  /* color: #d5d1d1f7; */
+  color: white;
   animation: moveInFromRight 0.5s ease-in-out;
 }
 .text-div a {
@@ -168,10 +164,11 @@ a {
   color: white;
   border: none;
   font-family: 'Inter', sans-serif;
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 500;
   line-height: 19.36px;
   margin-top: 2rem;
+  margin-right: 30px;
   display: block;
   text-align: center;
   padding-top: 1.5rem;
@@ -192,6 +189,21 @@ a {
   transition: all 0.4s ease-in-out;
 }
 
+.about-me_container {
+  height: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  display: flex;
+  background-color: red;
+  align-items: center;
+  padding: 2rem;
+}
+
+.left_div {
+  background-color: blue;
+  width: 50%;
+}
 @keyframes moveInFromLeft {
   0% {
     opacity: 0;
