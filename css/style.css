@@ -30,6 +30,7 @@ body {
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
   /* background-size: cover; */
 }
 
@@ -124,7 +125,7 @@ a {
   font-weight: 600;
   font-size: 3.2rem;
   line-height: 3.84rem;
-  padding: 1rem 0;
+  padding: 2rem 0;
   animation: moveInFromLeft 0.5s ease-in-out;
 }
 
@@ -144,10 +145,20 @@ a {
   color: white;
   animation: moveInFromTop 0.5s ease-in-out;
 }
+.text-div p#mes {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.504rem;
+  /* color: #d5d1d1f7; */
+  color: white;
+  animation: moveInFromTop 0.5s ease-in-out;
+  margin: 2rem 0;
+}
 
 .text-div h3 {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   line-height: 3.2rem;
   font-weight: 400;
   line-height: 3rem;
@@ -156,21 +167,22 @@ a {
   animation: moveInFromRight 0.5s ease-in-out;
 }
 .text-div a {
-  width: 15.4rem;
+  width: 16.4rem;
   height: 5.1rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
   color: white;
   border: none;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.5rem;
   margin-top: 2rem;
-  margin-right: 30px;
+  margin-right: auto;
+  margin-left: auto;
   display: block;
   text-align: center;
-  padding-top: 1.5rem;
+  padding-top: 1.75rem;
 }
 
 .logos {
@@ -188,21 +200,6 @@ a {
   transition: all 0.4s ease-in-out;
 }
 
-.about-me_container {
-  height: 60rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2rem;
-  display: flex;
-  background-color: red;
-  align-items: center;
-  padding: 2rem;
-}
-
-.left_div {
-  background-color: blue;
-  width: 50%;
-}
 @keyframes moveInFromLeft {
   0% {
     opacity: 0;
@@ -262,4 +259,25 @@ a {
     /* opacity: 1; */
     transform: translateY(-20);
   }
+}
+
+.about-div {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.about-sec_container {
+  max-width: 103rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2rem;
+}
+
+.about-sec_container h2 {
+  font-size: 3rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
