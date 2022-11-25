@@ -6,6 +6,9 @@
 
   .nav-div {
     height: 6rem;
+    max-width: 103rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .toggle-btn {
@@ -97,8 +100,7 @@
 @media (max-width: 719px) {
   .page-header {
     position: relative;
-    padding-left: 0;
-    padding-right: 0;
+    margin-right: 0;
   }
 
   .nav-links.show {
@@ -117,12 +119,6 @@
     top: 3rem;
     border: 2px solid #671ae4;
     animation: moveInFromRight 0.5s ease-in-out;
-  }
-
-  .nav-div {
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
   }
   .nav-links.show .nav-links-out {
     display: flex;
@@ -167,6 +163,7 @@
   }
 
   .text-div {
+    width: 100%;
     max-width: 550px;
   }
 
@@ -203,5 +200,10 @@
   .text-div h3 {
     font-size: 3.5rem;
     line-height: 4.3rem;
+  }
+
+  .text-div a {
+    font-size: 2rem;
+    line-height: 1.936rem;
   }
 }

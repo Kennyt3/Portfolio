@@ -41,15 +41,14 @@ a {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 .page-header {
-  /* background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%); */
   background: linear-gradient(214.02deg, #b75cff80 6.04%, #671ae480 92.95%);
   position: sticky;
   top: 0;
   left: 0;
-  width: 100%;
   height: 6rem;
   padding: 0.5rem 2rem;
 }
@@ -164,9 +163,9 @@ a {
   color: white;
   border: none;
   font-family: 'Inter', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
-  line-height: 19.36px;
+  line-height: 1.5rem;
   margin-top: 2rem;
   margin-right: 30px;
   display: block;
