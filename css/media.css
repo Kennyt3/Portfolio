@@ -181,6 +181,10 @@
       transform: translateX(-20px);
     }
   } */
+
+  .sides_con {
+    display: block;
+  }
 }
 
 @media (max-width: 343px) {

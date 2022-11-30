@@ -260,24 +260,3 @@ a {
     transform: translateY(-20);
   }
 }
-
-.about-div {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
-.about-sec_container {
-  max-width: 103rem;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 2rem;
-}
-
-.about-sec_container h2 {
-  font-size: 3rem;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-}
