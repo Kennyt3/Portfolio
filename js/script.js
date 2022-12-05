@@ -15,3 +15,7 @@ function regshow() {
   firstdis.style.display = 'none'
   seconddis.style.display = 'block'
 }
+
+// let [fist, ini] = ['Playboy', 'reem', 'ttyy']
+
+// console.log(fist, ini)
