@@ -50,3 +50,76 @@
 .about-right_side img {
   height: 400px;
 }
+
+.js-scroll {
+  opacity: 0;
+}
+.js-scroll.scrolled {
+  opacity: 1;
+}
+
+.js-scroll.scrolled p {
+  animation: moveFromLeft 2s ease-in-out;
+}
+
+.js-scroll.scrolled img {
+  animation: moveFromRight 2s ease-in-out;
+}
+
+.js-scroll.scrolled h2 {
+  animation: moveFromTop 2s ease-in-out;
+}
+
+.js-scroll.rescrolled {
+  opacity: 0;
+}
+
+.js-scroll.rescrolled p {
+  animation: anti 2s ease-in-out;
+}
+
+@keyframes anti {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes moveFromLeft {
+  0% {
+    opacity: 0;
+    transform: translate(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveFromRight {
+  0% {
+    opacity: 0;
+    transform: translate(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(-20);
+  }
+}
+
+@keyframes moveFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -5,3 +5,46 @@
   align-items: center;
   justify-content: center;
 }
+
+.noshow-child h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 3.84rem;
+  padding: 2rem;
+  text-align: center;
+  animation: moveFromLeft 2s ease-in-out;
+}
+
+.noshow-child p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.304rem;
+  padding: 2rem;
+  text-align: center;
+  animation: moveFromRight 2s ease-in-out;
+}
+
+@keyframes moveFromLeft {
+  0% {
+    opacity: 0;
+    transform: translate(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveFromRight {
+  0% {
+    opacity: 0;
+    transform: translate(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(-20);
+  }
+}

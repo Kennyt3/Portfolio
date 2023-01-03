@@ -128,7 +128,7 @@ a {
   font-size: 3.2rem;
   line-height: 3.84rem;
   padding: 2rem 0;
-  animation: moveInFromLeft 0.5s ease-in-out;
+  animation: moveInFromLeft 2s ease-in-out;
 }
 
 .text-div h1 span#color {
@@ -145,7 +145,7 @@ a {
   line-height: 2.304rem;
   /* color: #d5d1d1f7; */
   color: white;
-  animation: moveInFromTop 0.5s ease-in-out;
+  animation: moveInFromTop 2s ease-in-out;
 }
 .text-div p#mes {
   font-family: 'Poppins', sans-serif;
@@ -154,7 +154,7 @@ a {
   line-height: 2.504rem;
   /* color: #d5d1d1f7; */
   color: white;
-  animation: moveInFromTop 0.5s ease-in-out;
+  animation: moveInFromTop 2s ease-in-out;
   margin: 2rem 0;
 }
 
@@ -166,7 +166,7 @@ a {
   line-height: 3rem;
   /* color: #d5d1d1f7; */
   color: white;
-  animation: moveInFromRight 0.5s ease-in-out;
+  animation: moveInFromRight 2s ease-in-out;
 }
 .text-div a {
   width: 16.4rem;
@@ -192,7 +192,7 @@ a {
 }
 
 #cv-btn {
-  animation: moveInFromBottom 0.5s ease-in-out;
+  animation: moveInFromBottom 2s ease-in-out;
 }
 
 .nav-links.show .contact:hover,
